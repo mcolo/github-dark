@@ -1,6 +1,12 @@
 {
     "name": "Github Dark",
     "version": "0.1",
-    "description": "Make github code display with a dark theme",
-    "manifest_version": 2
+    "description": "Display code on github with a dark theme",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://*.github.com/*", "http://*.github.com/*"],
+            "css": ["styles.css"]
+        }
+    ]
 }
