@@ -1,0 +1,40 @@
+.application-main .blob-num {
+    color: rgba(248, 248, 248, 0.3);
+}
+
+.application-main .blob-code-inner {
+    color: #fff;
+}
+
+.application-main .blob-wrapper {
+    background-color: #222;
+}
+
+.application-main .pl-s, 
+.application-main .pl-pds, 
+.application-main .pl-s .pl-pse .pl-s1, 
+.application-main .pl-sr, 
+.application-main .pl-sr .pl-cce, 
+.application-main .pl-sr .pl-sre, 
+.application-main .pl-sr .pl-sra {
+    color: #62a5f2;
+}
+
+.application-main .pl-s .pl-s1, 
+.application-main .pl-smi {
+    color: #fff;
+}
+
+.application-main .pl-e, 
+.application-main .pl-en {
+    color: #cf9dff;
+}
+
+.application-main .pl-k {
+    color: #ec6498;
+}
+
+.application-main .pl-c1, 
+.application-main .pl-s .pl-v {
+    color: #ffffff;
+}
