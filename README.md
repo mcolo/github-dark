@@ -1,2 +1,2 @@
 # github-dark
-Display code on github with a dark theme
+Chrome extension to display code on github with a dark theme
