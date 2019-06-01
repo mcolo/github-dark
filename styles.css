@@ -1,5 +1,14 @@
+.application-main {
+    --line-marker: rgba(250,250,250,.3);
+    --bg: #222;
+    --bg-hover: #2a2a2a;
+    --diff-sidebar-text: rgba(30,30,30,.3);
+    --code-addition: #cdffd8;
+    --code-deletion: #ffdce0;
+}
+
 .application-main .blob-num {
-    color: rgba(248, 248, 248, 0.3);
+    color: var(--line-marker);
 }
 
 .application-main .blob-code-inner {
@@ -7,7 +16,7 @@
 }
 
 .application-main .blob-wrapper {
-    background-color: #222;
+    background-color: var(--bg);
 }
 
 .application-main .pl-s, 
@@ -37,4 +46,71 @@
 .application-main .pl-c1, 
 .application-main .pl-s .pl-v {
     color: #ffffff;
+}
+
+/* code diff */
+.application-main .diff-table .blob-code-addition,
+.application-main .diff-table .blob-code-deletion,
+.application-main .diff-table .blob-code-context {
+    background-color: var(--bg);
+}
+
+.application-main .diff-table .blob-code-deletion:hover,
+.application-main .diff-table .blob-code-addition:hover {
+    background-color: var(--bg-hover);
+}
+
+.application-main .diff-table .blob-code-deletion.blob-code-marker-cell,
+.application-main .diff-table .blob-num-deletion {
+    background-color: #F26071;
+}
+
+.application-main .selected-line {
+    border-top: 2px solid #fff5b1;
+    border-bottom: 2px solid #fff5b1;
+}
+
+.application-main tr .selected-line:first-child {
+    border-left: 2px solid #fff5b1;
+}
+
+.application-main tr .selected-line:last-child {
+    border-right: 2px solid #fff5b1;
+}
+
+.application-main .diff-table .blob-code-addition.blob-code-marker-cell,
+.application-main .diff-table .blob-num-addition {
+    background-color: #2b9f78;
+}
+
+.application-main .diff-table .blob-code-addition.blob-code-marker-cell::before {
+    color: #fff;
+}
+
+.application-main .diff-table .blob-code-deletion.blob-code-marker-cell::before {
+    color: #fff;
+}
+
+.application-main .diff-table .blob-num-addition,
+.application-main .diff-table .blob-num-deletion {
+    color: rgba(255,255,255,.7);
+}
+
+.application-main .diff-table .blob-num-addition:hover,
+.application-main .diff-table .blob-num-deletion:hover {
+    color: #fff;
+}
+
+.application-main .diff-table .blob-num-context {
+    color: #888;
+}
+
+.application-main .diff-table .blob-num-context:hover {
+    color: #222;
+}
+
+.application-main .diff-table .blob-code-hunk {
+    background-color: #dbedff;
+    border-left: 1px solid #fff;
+    color: #222;
 }
