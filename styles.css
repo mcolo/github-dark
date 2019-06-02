@@ -1,4 +1,4 @@
-.application-main {
+.gh-dark-extension-wrapper {
     --line-marker: rgba(250,250,250,.3);
     --bg: #222;
     --bg-hover: #2a2a2a;
@@ -7,109 +7,109 @@
     --code-deletion: #ffdce0;
 }
 
-.application-main .blob-num {
+.gh-dark-extension-wrapper .blob-num {
     color: var(--line-marker);
 }
 
-.application-main .blob-code-inner {
+.gh-dark-extension-wrapper .blob-code-inner {
     color: #fff;
 }
 
-.application-main .blob-wrapper {
+.gh-dark-extension-wrapper .blob-wrapper {
     background-color: var(--bg);
 }
 
-.application-main .pl-s, 
-.application-main .pl-pds, 
-.application-main .pl-s .pl-pse .pl-s1, 
-.application-main .pl-sr, 
-.application-main .pl-sr .pl-cce, 
-.application-main .pl-sr .pl-sre, 
-.application-main .pl-sr .pl-sra {
+.gh-dark-extension-wrapper .pl-s, 
+.gh-dark-extension-wrapper .pl-pds, 
+.gh-dark-extension-wrapper .pl-s .pl-pse .pl-s1, 
+.gh-dark-extension-wrapper .pl-sr, 
+.gh-dark-extension-wrapper .pl-sr .pl-cce, 
+.gh-dark-extension-wrapper .pl-sr .pl-sre, 
+.gh-dark-extension-wrapper .pl-sr .pl-sra {
     color: #62a5f2;
 }
 
-.application-main .pl-s .pl-s1, 
-.application-main .pl-smi {
+.gh-dark-extension-wrapper .pl-s .pl-s1, 
+.gh-dark-extension-wrapper .pl-smi {
     color: #fff;
 }
 
-.application-main .pl-e, 
-.application-main .pl-en {
+.gh-dark-extension-wrapper .pl-e, 
+.gh-dark-extension-wrapper .pl-en {
     color: #cf9dff;
 }
 
-.application-main .pl-k {
+.gh-dark-extension-wrapper .pl-k {
     color: #ec6498;
 }
 
-.application-main .pl-c1, 
-.application-main .pl-s .pl-v {
+.gh-dark-extension-wrapper .pl-c1, 
+.gh-dark-extension-wrapper .pl-s .pl-v {
     color: #ffffff;
 }
 
 /* code diff */
-.application-main .diff-table .blob-code-addition,
-.application-main .diff-table .blob-code-deletion,
-.application-main .diff-table .blob-code-context {
+.gh-dark-extension-wrapper .diff-table .blob-code-addition,
+.gh-dark-extension-wrapper .diff-table .blob-code-deletion,
+.gh-dark-extension-wrapper .diff-table .blob-code-context {
     background-color: var(--bg);
 }
 
-.application-main .diff-table .blob-code-deletion:hover,
-.application-main .diff-table .blob-code-addition:hover {
+.gh-dark-extension-wrapper .diff-table .blob-code-deletion:hover,
+.gh-dark-extension-wrapper .diff-table .blob-code-addition:hover {
     background-color: var(--bg-hover);
 }
 
-.application-main .diff-table .blob-code-deletion.blob-code-marker-cell,
-.application-main .diff-table .blob-num-deletion {
+.gh-dark-extension-wrapper .diff-table .blob-code-deletion.blob-code-marker-cell,
+.gh-dark-extension-wrapper .diff-table .blob-num-deletion {
     background-color: #F26071;
 }
 
-.application-main .selected-line {
+.gh-dark-extension-wrapper .selected-line {
     border-top: 2px solid #fff5b1;
     border-bottom: 2px solid #fff5b1;
 }
 
-.application-main tr .selected-line:first-child {
+.gh-dark-extension-wrapper tr .selected-line:first-child {
     border-left: 2px solid #fff5b1;
 }
 
-.application-main tr .selected-line:last-child {
+.gh-dark-extension-wrapper tr .selected-line:last-child {
     border-right: 2px solid #fff5b1;
 }
 
-.application-main .diff-table .blob-code-addition.blob-code-marker-cell,
-.application-main .diff-table .blob-num-addition {
+.gh-dark-extension-wrapper .diff-table .blob-code-addition.blob-code-marker-cell,
+.gh-dark-extension-wrapper .diff-table .blob-num-addition {
     background-color: #2b9f78;
 }
 
-.application-main .diff-table .blob-code-addition.blob-code-marker-cell::before {
+.gh-dark-extension-wrapper .diff-table .blob-code-addition.blob-code-marker-cell::before {
     color: #fff;
 }
 
-.application-main .diff-table .blob-code-deletion.blob-code-marker-cell::before {
+.gh-dark-extension-wrapper .diff-table .blob-code-deletion.blob-code-marker-cell::before {
     color: #fff;
 }
 
-.application-main .diff-table .blob-num-addition,
-.application-main .diff-table .blob-num-deletion {
+.gh-dark-extension-wrapper .diff-table .blob-num-addition,
+.gh-dark-extension-wrapper .diff-table .blob-num-deletion {
     color: rgba(255,255,255,.7);
 }
 
-.application-main .diff-table .blob-num-addition:hover,
-.application-main .diff-table .blob-num-deletion:hover {
+.gh-dark-extension-wrapper .diff-table .blob-num-addition:hover,
+.gh-dark-extension-wrapper .diff-table .blob-num-deletion:hover {
     color: #fff;
 }
 
-.application-main .diff-table .blob-num-context {
+.gh-dark-extension-wrapper .diff-table .blob-num-context {
     color: #888;
 }
 
-.application-main .diff-table .blob-num-context:hover {
+.gh-dark-extension-wrapper .diff-table .blob-num-context:hover {
     color: #222;
 }
 
-.application-main .diff-table .blob-code-hunk {
+.gh-dark-extension-wrapper .diff-table .blob-code-hunk {
     background-color: #dbedff;
     border-left: 1px solid #fff;
     color: #222;
