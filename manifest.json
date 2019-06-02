@@ -6,7 +6,11 @@
     "content_scripts": [
         {
             "matches": ["https://*.github.com/*", "http://*.github.com/*"],
-            "css": ["styles.css"]
+            "css": ["styles.css"],
+            "js": ["toggle.js"]
         }
-    ]
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
 }
