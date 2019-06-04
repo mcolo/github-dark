@@ -11,8 +11,16 @@
     color: var(--line-marker);
 }
 
+.gh-dark-extension-wrapper .blob-num:hover {
+    color: rgba(250,250,250,.7);
+}
+
 .gh-dark-extension-wrapper .blob-code-inner {
     color: #fff;
+}
+
+.gh-dark-extension-wrapper .blob-code-inner.highlighted {
+    background-color: #000;
 }
 
 .gh-dark-extension-wrapper .blob-wrapper {
