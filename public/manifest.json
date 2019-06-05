@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": ["https://*.github.com/*", "http://*.github.com/*"],
-            "css": ["dist/css/styles.css"],
+            "css": ["dist/css/main.css"],
             "js": ["dist/js/injected.bundle.js"]
         }
     ],

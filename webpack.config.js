@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     'popup': './src/popup/index.ts',
     'injected': './src/injected/index.ts',
-    'styles': './src/styles/styles.scss'
+    'styles': './src/styles/main.scss'
   },
   output: {
     filename: '[name].bundle.js',

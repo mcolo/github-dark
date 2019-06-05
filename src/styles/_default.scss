@@ -1,0 +1,65 @@
+.gh-dark-extension-wrapper {
+
+    .blob-num {
+        color: $line-marker;
+    }
+
+    .blob-num:hover {
+        color: rgba(250,250,250,.7);
+    }
+
+    .blob-code-inner {
+        color: #fff;
+    }
+
+    .blob-code-inner.highlighted {
+        background-color: #000;
+    }
+
+    .blob-wrapper {
+        background-color: $bg;
+    }
+
+    .pl-s, 
+    .pl-pds, 
+    .pl-s .pl-pse .pl-s1, 
+    .pl-sr, 
+    .pl-sr .pl-cce, 
+    .pl-sr .pl-sre, 
+    .pl-sr .pl-sra {
+        color: #62a5f2;
+    }
+
+    .pl-s .pl-s1, 
+    .pl-smi {
+        color: #fff;
+    }
+
+    .pl-e, 
+    .pl-en {
+        color: #cf9dff;
+    }
+
+    .pl-k {
+        color: #ec6498;
+    }
+
+    .pl-c1, 
+    .pl-s .pl-v {
+        color: #ffffff;
+    }
+
+    .selected-line {
+        border-top: 2px solid #fff5b1;
+        border-bottom: 2px solid #fff5b1;
+    }
+
+    tr .selected-line:first-child {
+        border-left: 2px solid #fff5b1;
+    }
+
+    tr .selected-line:last-child {
+        border-right: 2px solid #fff5b1;
+    }
+
+}

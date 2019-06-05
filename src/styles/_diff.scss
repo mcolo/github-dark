@@ -1,0 +1,55 @@
+.gh-dark-extension-wrapper .diff-table {
+
+    .blob-code-addition,
+    .blob-code-deletion,
+    .blob-code-context {
+        background-color: $bg;
+    }
+
+    .blob-code-deletion:hover,
+    .blob-code-addition:hover {
+        background-color: $bg-hover;
+    }
+
+    .blob-code-deletion.blob-code-marker-cell,
+    .blob-num-deletion {
+        background-color: $code-deletion;
+    }
+
+    .blob-code-addition.blob-code-marker-cell,
+    .blob-num-addition {
+        background-color: $code-addition;
+    }
+
+    .blob-code-addition.blob-code-marker-cell::before {
+        color: #fff;
+    }
+
+    .blob-code-deletion.blob-code-marker-cell::before {
+        color: #fff;
+    }
+
+    .blob-num-addition,
+    .blob-num-deletion {
+        color: rgba(255,255,255,.7);
+    }
+
+    .blob-num-addition:hover,
+    .blob-num-deletion:hover {
+        color: #fff;
+    }
+
+    .blob-num-context {
+        color: #888;
+    }
+
+    .blob-num-context:hover {
+        color: #222;
+    }
+
+    .blob-code-hunk {
+        background-color: #dbedff;
+        border-left: 1px solid #fff;
+        color: #222;
+    }
+}
