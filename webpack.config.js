@@ -37,24 +37,18 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: [INJECTED_PATH, POPUP_PATH],
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: '../css/[name].css',
-						}
-					},
-					{
-						loader: 'extract-loader'
-          },
+        use: [
           {
-            loader: 'css-loader?-url'
+            loader: 'file-loader',
+            options: {
+              name: '../css/[name].css',
+            }
           },
-					{
-						loader: 'sass-loader'
-					}
-				]
-			}
+          { loader: 'extract-loader' },
+          { loader: 'css-loader?-url' },
+          { loader: 'sass-loader' }
+        ]
+      }
     ]
   },
   resolve: {
