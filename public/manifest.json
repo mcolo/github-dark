@@ -6,8 +6,8 @@
     "content_scripts": [
         {
             "matches": ["https://*.github.com/*", "http://*.github.com/*"],
-            "css": ["styles.css"],
-            "js": ["toggle.js"]
+            "css": ["dist/css/styles.css"],
+            "js": ["dist/js/injected.bundle.js"]
         }
     ],
     "browser_action": {
