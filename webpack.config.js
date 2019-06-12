@@ -8,7 +8,6 @@ module.exports = {
   entry: {
     'popup': './src/popup/index.ts',
     'injected': './src/injected/index.ts',
-    'styles': './src/styles/main.scss'
   },
   output: {
     filename: '[name].bundle.js',
@@ -33,21 +32,6 @@ module.exports = {
             instance: 'injected',
             configFile: 'tsconfig.json',
         }
-      },
-      {
-        test: /\.scss$/,
-        exclude: [INJECTED_PATH, POPUP_PATH],
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '../css/[name].css',
-            }
-          },
-          { loader: 'extract-loader' },
-          { loader: 'css-loader?-url' },
-          { loader: 'sass-loader' }
-        ]
       }
     ]
   },
